@@ -16,6 +16,7 @@ CREATE TABLE movimentacoes (
     id SERIAL PRIMARY KEY,
     data_movimentacao DATE,
     valor NUMERIC(15,2),
-    descricao VARCHAR(255)
+    descricao VARCHAR(255),
+    classificacao VARCHAR(50)
 );
 ```
